@@ -12,16 +12,14 @@
         $willekeurigeVariable = 3;
         $willekeurigeVariable = true;
         $willekeurigeVariable = [true, "yes", 4, "Cameron"];
-        echo $willekeurigeVariable [1];
+        
+        $mijnGegevens = [
+            "voornaam" => "Cameron",
+            "achternaam" => "van Asperen",	        
+            "leeftijd" => 17
+        ];
 
-        $willekeurigeVariable[4] = "van Asperen";
-        echo $willekeurigeVariable[4];
-
-        $willekeurigeVariable[0] = false;
-
-        print_r($willekeurigeVariable);
-
-        print_r($_SERVER)
+        echo $mijnGegevens["voornaam"];
 
     ?>
 </body>
