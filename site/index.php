@@ -7,7 +7,6 @@
     <title>Opdracht 12</title>
 </head>
 <body>
-<h1>
 <?php
         $willekeurigeVariable = 3;
         $willekeurigeVariable = true;
